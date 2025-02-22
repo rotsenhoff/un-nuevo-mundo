@@ -1,0 +1,233 @@
+
+<form action="http://www.curso de
+HTML.com/prog/newuser" method="get">
+
+<form>
+    <input type="text" name
+    ="miFormulario" id="etiquetaText"
+    value="Angel">
+    <input type="submit" value="Aceptar">
+    </form>
+
+    <form name="formulario" id="formulario"
+method="get" autocomplete="off">
+Email: <input type="email"
+name="mail" id="mail">
+<input type="submit"
+value="Aceptar"><br><br>
+Edad;
+<input type="number" name="edad"
+id="edad" min="18" max="100">
+<input type="submit"
+value="Aceptar">br><br>
+Buscar:
+<input type="search" name="buscar"
+id="buscar"><br><br>
+URL:
+<input type="url" name="URL"
+id="URL"><br><br>
+Edad:
+<input type="number" name="edad"
+id="edad" min="0" max="100" step="5"
+placeholder="Introduce edad"><br><br>
+Rango: <input type="range" min="0"
+max="100" step="5"><br><br>
+Fecha: <input type="date"
+name="fecha" id="fecha"><br><br>
+Hora: <input type="time" name="hora"
+id="hora" required><br><br>
+Código postal: <input pattern="(0-
+9){5}" placeholder="5 dígitos" br><br>
+<input type="submit"
+value="Enviar"><br><br>
+</form>
+
+<form name="formulario" method="get">
+    <datalist id="informacion">
+    <option value="952773366"
+    label=" Telefono 1"></option>
+    <option value="952734366"
+    label=" Telefono 2"></option>
+    <option value="952773236"
+    label=" Telefono 3"></option>
+    </datalist>
+    Telefono:
+    <input type="tel" name="telefono"
+    id="telefono" list="informacion">
+    </form>
+
+    <input type="text" name="nombre"
+    size="20">
+
+    <label for="nombre">Ingrese su
+        nombre:</label>
+        <input type="text" name="nombre"
+        size="20" id="nombre">
+
+
+        <form action="registrardatos.php"
+        method="post">
+        <fieldset>
+        <legend>Formulario de
+        comentarios.</legend>
+        <label for="nombre">Ingrese su
+        nombre:</label>
+        <input type="text" name="nombre"
+        size="30" id="nombre"><br>
+        <label for="mail">Ingrese su
+        mail:</label>
+        <input type="text" name="mail"
+        size="50" id="mail"><br>
+        <label
+        for="comentarios">Comentarios:</label><br
+        >
+        <textarea name="comentarios"
+        rows="5" cols="60" id="comentarios">
+        </textarea>
+        <br>
+        <input type="submit"
+        value="Enviar">
+    </fieldset>
+</form>
+
+<form action="/action_page.php"
+method="get" enctype="multipart/formdata" accept-charset="UTF-8">
+<select name="peliculas">
+<option
+value="Superman">Superman</option>
+<option
+value="Spiderman">Spiderman</option>
+<option
+value="Batman">Batman</option>
+</select>
+</form>
+
+<form action="/action_page.php"
+method="get" enctype="multipart/formdata" accept-charset="UTF-8">
+<select name="peliculas">
+<option
+value="Superman">Superman</option>
+<option value=" Spiderman "
+selected> Spiderman</option>
+<option
+value="Batman">Batman</option>
+</select>
+</form>
+
+<form action="/action_page.php"
+method="get" enctype="multipart/formdata" accept-charset="UTF-8">
+<label for="cars">Elija un modelo de
+coche:</label><br>
+<select id="cars" name="cars"
+size="3">
+<option
+value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<form action="/action_page.php"
+method="get" enctype="multipart/formdata" accept-charset="UTF-8">
+<label for="cars">Choose a
+car:</label>
+<select id="cars" name="cars"
+size="4" multiple>
+<option
+value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+</form>
+
+<form action="" method="get">
+    <textarea name="message" rows="10"
+    cols="30">
+    Aquí el usuario puede escribir un
+    texto más extenso que si usáramos el
+    atributo text.
+    </textarea>
+    </form>
+
+    <form action="" method="get">
+        <textarea name="message"
+        style="width:200px; height:600px;">
+        Aquí el usuario puede escribir un
+        texto más extenso que si usáramos el
+        atributo text.
+        </textarea>
+        </form>
+
+        <form action="" method="get">
+            Puestos de trabajo buscados <br/>
+            <input name="puesto_directivo"
+            type="checkbox" value="direccion"/>
+            Dirección<br>
+            <input name="puesto_tecnico"
+            type="checkbox" value="tecnico"/>
+            Técnico<br>
+            <input name="puesto_empleado"
+            type="checkbox" value="empleado"/>
+            Empleado<br>
+            </form>
+
+            <input type="checkbox"
+            checked="checked" ... /> Checkbox
+            seleccionado por defecto
+
+Selecciona tus intereses:<br/>
+<input name="Peliculas" type="checkbox"
+/>Películas<br/>
+<input name="Libros" type="checkbox"
+checked="checked"/>Libros<br/>
+<input name="Deportes" type="checkbox"
+/>Internet<br/>
+
+Sexo: <br/>
+<input type="radio" name="sexo"
+value="hombre"/>Hombre<br>
+<input type="radio" name="sexo"
+value="mujer" />Mujer
+
+<input type="submit" name="buscar"
+value="Buscar" />
+
+<input type="reset" name="limpiar"
+value="Borrar datos" />
+<input type="image" name="enviar"
+src="accept.png"/>
+
+<form action="/action_page.php">
+    <fieldset>
+    <legend>Datos de contacto:</legend>
+    <label
+    for="name">Nombre:</label><br>
+    <input type="text" id="name"
+    name="name" value="Andrés"><br>
+    <label
+    for="apellido">Apellido:</label><br>
+    <input type="text" id="apellido"
+    name="apellido" value="García">
+    <br><br>
+    <input type="submit"
+    value="Submit">
+    </fieldset>
+    </form>
+
+    Fichero adjunto
+    <input type="file" name="adjunto" />
+    <form action="..." method="post"
+enctype="multipart/form-data">
+...
+</form>
+
+<input type="hidden" name="url_previa"
+value="/articulo/primero.html"/>
+
+<iframe src="url"
+title="description"></iframe>
+<iframe src="demo_iframe.htm"
+height="200" width="300"
+title="Ej_Iframe> </iframe>
