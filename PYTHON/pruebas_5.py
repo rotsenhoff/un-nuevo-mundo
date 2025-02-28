@@ -10,3 +10,6 @@ funcion()
 print('Valor fuera', a)
 
 
+
+
+
