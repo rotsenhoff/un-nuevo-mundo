@@ -10,6 +10,7 @@ def agregar_libro(libro, biblioteca):
 
 
 # Definimos la clase Libro
+
 class Libro:
     def __init__(self, titulo, autor, isbn):
         """Constructor de la clase Libro."""
