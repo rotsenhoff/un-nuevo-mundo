@@ -15,10 +15,10 @@ class Libro():
     
     def __init__(self, titulo, autor, isbn):
 
-        self.titulo = titulo(str)
-        self.autor = autor(str)
-        self.isbn = isbn(str)
-        self.disponible = True(bool) # Todos los libros comienzan como disponibles
+        self.titulo = str(titulo)
+        self.autor = str(autor)
+        self.isbn = str(isbn)
+        self.disponible = bool (True) # Todos los libros comienzan como disponibles
 
     # Ahora definimos los métodos de la clase Libro
 
@@ -100,9 +100,10 @@ def buscar_libro(): # Búsqueda de un libro por ISBN
     
     print("Libro no disponible.")
 
-def menu():
-    """Función para manejar el menú de opciones."""
+def menu(): # Función para menú de opciones.
+    
     while True:
+        
         print("\nBienvenido al Sistema de Gestión de Biblioteca")
         print("1. Agrega un libro")
         print("2. Prestar un libro")
@@ -114,17 +115,23 @@ def menu():
         
         if opcion == "1":
             agregar_libro()
+            
         elif opcion == "2":
             prestar_libro()
+            
         elif opcion == "3":
             devolver_libro()
+            
         elif opcion == "4":
             mostrar_libros()
+            
         elif opcion == "5":
             buscar_libro()
+            
         elif opcion == "6":
             print("Saliendo del programa...")
             break
+        
         else:
             print("Opción inválida. Inténtalo de nuevo.")
 
